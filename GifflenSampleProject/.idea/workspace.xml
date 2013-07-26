@@ -84,36 +84,7 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GifflenSample/src/main/java/jp/dalvik/gifflen/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GifEncoder.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GifflenSample/src/main/java/jp/dalvik/gifflen/GifEncoder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2040">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GifflenSample/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="57" selection-start="624" selection-end="624" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GifflenSample/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="1" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.62953997" vertical-offset="0" max-vertical-offset="1239">
+            <state line="5" column="31" selection-start="112" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
               <folding />
             </state>
           </provider>
@@ -122,8 +93,19 @@
       <file leaf-file-name="gifflen.cpp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GifflenSample/jni/gifflen.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="36" selection-start="2846" selection-end="2867" vertical-scroll-proportion="0.0" vertical-offset="885" max-vertical-offset="14250">
+            <state line="58" column="48" selection-start="1978" selection-end="1998" vertical-scroll-proportion="-10.192307" vertical-offset="605" max-vertical-offset="14250">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Giffle.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GifflenSample/src/main/java/org/jiggawatt/giffle/Giffle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="21" selection-start="747" selection-end="747" vertical-scroll-proportion="0.7125457" vertical-offset="0" max-vertical-offset="2040">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -173,11 +155,11 @@
         <option value="$PROJECT_DIR$/GifflenSampleProject.iml" />
         <option value="$PROJECT_DIR$/GifflenSample/src/main/java/jp/dalvik/gifflen/Gifflen.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/GifflenSample/jni/gifflen.cpp" />
         <option value="$PROJECT_DIR$/GifflenSample/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/GifflenSample/src/main/java/jp/dalvik/gifflen/MainActivity.java" />
         <option value="$PROJECT_DIR$/GifflenSample/src/main/java/jp/dalvik/gifflen/GifEncoder.java" />
         <option value="$PROJECT_DIR$/GifflenSample/build.gradle" />
+        <option value="$PROJECT_DIR$/GifflenSample/src/main/java/jp/dalvik/gifflen/MainActivity.java" />
+        <option value="$PROJECT_DIR$/GifflenSample/jni/gifflen.cpp" />
       </list>
     </option>
   </component>
@@ -292,6 +274,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GifflenSample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GifflenSampleProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GifflenSample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="giffle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -592,14 +604,14 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991317" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39936858" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991317" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991317" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32991317" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -703,40 +715,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GifflenSample/jni/gifflen.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="36" selection-start="2846" selection-end="2867" vertical-scroll-proportion="0.0" vertical-offset="885" max-vertical-offset="14250">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GifflenSample/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="57" selection-start="624" selection-end="624" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Applications/android-sdk-macosx/sources/android-18/android/graphics/Bitmap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="457" column="62" selection-start="15959" selection-end="15959" vertical-scroll-proportion="0.10777626" vertical-offset="6446" max-vertical-offset="21570">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GifflenSample/src/main/java/jp/dalvik/gifflen/GifEncoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2040">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GifflenSample/src/main/java/jp/dalvik/gifflen/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -749,8 +731,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GifflenSample/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="1" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.62953997" vertical-offset="0" max-vertical-offset="1239">
+        <state line="7" column="5" selection-start="144" selection-end="144" vertical-scroll-proportion="0.084745765" vertical-offset="0" max-vertical-offset="1239">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GifflenSample/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="33" selection-start="248" selection-end="248" vertical-scroll-proportion="0.084745765" vertical-offset="0" max-vertical-offset="1239">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GifflenSample/src/main/java/jp/dalvik/gifflen/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="31" selection-start="112" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GifflenSample/jni/gifflen.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="48" selection-start="1978" selection-end="1998" vertical-scroll-proportion="-10.192307" vertical-offset="605" max-vertical-offset="14250">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GifflenSample/src/main/java/org/jiggawatt/giffle/Giffle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="21" selection-start="747" selection-end="747" vertical-scroll-proportion="0.7125457" vertical-offset="0" max-vertical-offset="2040">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

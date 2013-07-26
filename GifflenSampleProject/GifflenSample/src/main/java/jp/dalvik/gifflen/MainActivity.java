@@ -1,13 +1,9 @@
 package jp.dalvik.gifflen;
 
-import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.app.Activity;
-import android.view.Menu;
 
-import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
+import org.jiggawatt.giffle.Giffle;
 
 /**
  * @author D.Furiya
@@ -19,7 +15,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
-		GifEncoder encoder = new GifEncoder();
+		Giffle encoder = new Giffle();
 
 		int[] list = new int[] {
 			R.drawable.target1,
@@ -29,7 +25,7 @@ public class MainActivity extends Activity {
 			R.drawable.target5
 		};
 
-		encoder.encode(this, "/sdcard/sample.gif", 320, 320, list, 300);
+		encoder.encode(this, "/sdcard/sample.gif", 320, 320, list, 500);
 
 	}
 }

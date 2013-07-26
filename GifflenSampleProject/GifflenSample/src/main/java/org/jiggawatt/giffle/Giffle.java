@@ -1,4 +1,4 @@
-package jp.dalvik.gifflen;
+package org.jiggawatt.giffle;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -13,9 +13,9 @@ import java.util.List;
 /**
  * @author D.furiya
  */
-public class GifEncoder {
+public class Giffle {
 
-	private static final String TAG = "GifEncoder";
+	private static final String TAG = "Giffle";
 
 	private static final int COLOR = 256;
 	private static final int QUALITY = 10;
