@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GifflenSample/GifflenSample.iml" filepath="$PROJECT_DIR$/GifflenSample/GifflenSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GifflenSampleProject.iml" filepath="$PROJECT_DIR$/GifflenSampleProject.iml" />
+    </modules>
+  </component>
+</project>
+

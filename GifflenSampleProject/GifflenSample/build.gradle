@@ -1,0 +1,53 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.5.+'
+
+    }
+}
+apply plugin: 'android'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:13.0.+'
+}
+
+android {
+    compileSdkVersion 18
+    buildToolsVersion "18.0.0"
+
+    defaultConfig {
+        minSdkVersion 7
+        targetSdkVersion 16
+    }
+
+	// ndk-build タスク定義
+	task ndkBuild(type:Exec) {
+		commandLine '/Applications/android-ndk-r8e/ndk-build', 'APP_ABI=all'
+	}
+	tasks.withType(Compile) {
+		compileTask -> compileTask.dependsOn ndkBuild
+	}
+
+	// copy タスク定義
+	task copyNativeLibs(type: Copy) {
+		from('libs') { include '**/*.so' }
+		into new File(buildDir, 'native-libs')
+	}
+	tasks.withType(Compile) {
+		compileTask -> compileTask.dependsOn copyNativeLibs
+	}
+	tasks.withType(com.android.build.gradle.tasks.PackageApplication) {
+		pkgTask -> pkgTask.jniDir(new File(buildDir, 'native-libs'))
+	}
+	clean.dependsOn 'cleanCopyNativeLibs'
+}
+
+tasks.withType(Compile) {
+	options.encoding = 'UTF-8'
+}
