@@ -1,3 +1,7 @@
+
+// Androi NDK Path
+def ANDROID_NDK_HOME = '/Applications/android-ndk-r8e'
+
 buildscript {
     repositories {
         mavenCentral()
@@ -26,9 +30,18 @@ android {
         targetSdkVersion 16
     }
 
+
 	// ndk-build タスク定義
-	task ndkBuild(type:Exec) {
-		commandLine '/Applications/android-ndk-r8e/ndk-build', 'APP_ABI=all'
+	task ndkBuild(type: Exec) {
+
+		def ndkBuild
+
+		if (new File(ANDROID_NDK_HOME).exists()) {
+			ndkBuild = new File(ANDROID_NDK_HOME, 'ndk-build')
+		} else {
+			ndkBuild = new File('ndk-build')
+		}
+		commandLine ndkBuild,'APP_ABI=all'
 	}
 	tasks.withType(Compile) {
 		compileTask -> compileTask.dependsOn ndkBuild
@@ -48,6 +61,7 @@ android {
 	clean.dependsOn 'cleanCopyNativeLibs'
 }
 
+// CharSet
 tasks.withType(Compile) {
 	options.encoding = 'UTF-8'
 }
