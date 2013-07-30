@@ -1,6 +1,8 @@
 gifflen-sample
 ==============
 
+AndroidでGif Animation Fileを生成するサンプル
+
 Bitmap color reduction and GIF encoding
 
 @see http://jiggawatt.org/badc0de/android/#gifflen
