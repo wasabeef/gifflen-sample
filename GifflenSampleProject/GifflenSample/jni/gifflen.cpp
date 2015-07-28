@@ -925,7 +925,10 @@ void NeuQuant::learn()
 		if (rad) alterneigh(rad,j,b,g,r);   /* alter neighbours */
 
 		p += step;
-		if (p >= (unsigned int *)lim) p -= lengthcount;
+		
+        if (p >= (unsigned int *) lim) {
+            p = (unsigned int *) ((char *) p - lengthcount);
+        }
 
 		i++;
 		if (i%delta == 0) {
